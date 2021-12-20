@@ -352,13 +352,12 @@ public:
     /// Release memory
     void destroy()
     {
-        for (iterator I = IDToNodeMap.begin(), E = IDToNodeMap.end(); I != E; ++I){
-            // NodeType* node = I->second;
-            // for(typename NodeType::iterator it = node->InEdgeBegin(), eit = node->InEdgeEnd(); it!=eit; ++it)
-            //         delete *it;
+        for (auto &entry : IDToNodeMap) {
+          auto * node = entry.second;
+          for (auto it = node->OutEdgeBegin(), eit = node->OutEdgeEnd(); it!=eit; ++it)
+            delete *it;
+          delete node;
         }
-        for (iterator I = IDToNodeMap.begin(), E = IDToNodeMap.end(); I != E; ++I)
-            delete I->second;
     }
     /// Iterators
     //@{
