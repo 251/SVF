@@ -42,6 +42,11 @@ public:
         return "Remove Constant GEP Expressions";
     }
     virtual bool runOnModule (Module & M);
+    virtual void getAnalysisUsage(llvm::AnalysisUsage &AU) const
+    {
+      // This pass does not modify the control-flow graph of the function
+      AU.setPreservesCFG();
+    }
 };
 
 
@@ -86,6 +91,12 @@ public:
     {
         assert(!fn.isDeclaration() && "external function does not have DF");
         return &getAnalysis<UnifyFunctionExitNodes>(const_cast<Function&>(fn));
+    }
+    virtual void getAnalysisUsage(llvm::AnalysisUsage &AU) const
+    {
+      // This pass does not modify the control-flow graph of the function
+      AU.addRequired<UnifyFunctionExitNodes>();
+      AU.addPreserved<BreakConstantGEPs>();
     }
 };
 
