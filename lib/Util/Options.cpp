@@ -281,7 +281,7 @@ const llvm::cl::opt<bool> Options::PTSAllPrint(
 
 const llvm::cl::opt<bool> Options::PStat(
     "stat",
-    llvm::cl::init(true),
+    llvm::cl::init(false),
     llvm::cl::desc("Statistic for Pointer analysis")
 );
 
