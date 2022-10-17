@@ -27,11 +27,11 @@
  */
 
 
-#include "SVF-FE/LLVMUtil.h"
-#include "CFL/CFLAlias.h"
-#include "Util/Options.h"
-#include "SVF-FE/SVFIRBuilder.h"
-#include "CFL/CFGNormalizer.h"
+#include "svf/SVF-FE/LLVMUtil.h"
+#include "svf/CFL/CFLAlias.h"
+#include "svf/Util/Options.h"
+#include "svf/SVF-FE/SVFIRBuilder.h"
+#include "svf/CFL/CFGNormalizer.h"
 
 using namespace llvm;
 using namespace SVF;

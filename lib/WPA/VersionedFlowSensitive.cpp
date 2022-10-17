@@ -7,10 +7,10 @@
  *      Author: Mohamad Barbar
  */
 
-#include "WPA/Andersen.h"
-#include "WPA/VersionedFlowSensitive.h"
-#include "Util/Options.h"
-#include "MemoryModel/PointsTo.h"
+#include "svf/WPA/Andersen.h"
+#include "svf/WPA/VersionedFlowSensitive.h"
+#include "svf/Util/Options.h"
+#include "svf/MemoryModel/PointsTo.h"
 #include <iostream>
 #include <queue>
 #include <thread>

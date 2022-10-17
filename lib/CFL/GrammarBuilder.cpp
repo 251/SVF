@@ -32,7 +32,7 @@
 #include <regex>
 #include <sstream>
 #include <iostream>
-#include "CFL/GrammarBuilder.h"
+#include "svf/CFL/GrammarBuilder.h"
 
 namespace SVF
 {

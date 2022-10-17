@@ -28,8 +28,8 @@
  *      Author: Yulei and Xiao
  */
 
-#include "Util/Options.h"
-#include "Util/BDDExpr.h"
+#include "svf/Util/Options.h"
+#include "svf/Util/BDDExpr.h"
 
 using namespace SVF;
 using namespace SVFUtil;

@@ -6,9 +6,9 @@
 
 //#include "AliasUtil/AliasAnalysisCounter.h"
 //#include "MemoryModel/ComTypeModel.h"
-#include "SVF-FE/LLVMUtil.h"
-#include "DDA/DDAPass.h"
-#include "Util/Options.h"
+#include "svf/SVF-FE/LLVMUtil.h"
+#include "svf/DDA/DDAPass.h"
+#include "svf/Util/Options.h"
 
 using namespace llvm;
 using namespace SVF;

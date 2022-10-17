@@ -27,11 +27,11 @@
  *      Author: yesen
  */
 
-#include "SVF-FE/LLVMUtil.h"
-#include "WPA/Andersen.h"
-#include "WPA/WPAStat.h"
-#include "WPA/FlowSensitive.h"
-#include "MemoryModel/PointsTo.h"
+#include "svf/SVF-FE/LLVMUtil.h"
+#include "svf/WPA/Andersen.h"
+#include "svf/WPA/WPAStat.h"
+#include "svf/WPA/FlowSensitive.h"
+#include "svf/MemoryModel/PointsTo.h"
 
 using namespace SVF;
 using namespace SVFUtil;

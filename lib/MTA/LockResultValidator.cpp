@@ -4,11 +4,11 @@
  *  Created on: 24/07/2021
  */
 
-#include "Util/Options.h"
-#include "SVF-FE/BasicTypes.h"
+#include "svf/Util/Options.h"
+#include "svf/SVF-FE/BasicTypes.h"
 #include <string>
 #include <sstream>
-#include "MTA/LockResultValidator.h"
+#include "svf/MTA/LockResultValidator.h"
 
 using namespace SVF;
 using namespace SVFUtil;

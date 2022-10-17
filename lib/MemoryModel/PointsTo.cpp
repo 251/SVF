@@ -11,9 +11,9 @@
 
 #include <new>
 
-#include "Util/Options.h"
-#include "MemoryModel/PointsTo.h"
-#include "Util/BasicTypes.h"
+#include "svf/Util/Options.h"
+#include "svf/MemoryModel/PointsTo.h"
+#include "svf/Util/BasicTypes.h"
 
 namespace SVF
 {

@@ -1,6 +1,6 @@
-#include "SVF-FE/LLVMUtil.h"
-#include "MTA/MTA.h"
-#include "Util/Options.h"
+#include "svf/SVF-FE/LLVMUtil.h"
+#include "svf/MTA/MTA.h"
+#include "svf/Util/Options.h"
 
 using namespace llvm;
 using namespace std;

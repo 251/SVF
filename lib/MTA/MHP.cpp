@@ -5,14 +5,14 @@
  *      Author: Yulei Sui, Peng Di
  */
 
-#include "Util/Options.h"
-#include "MTA/MHP.h"
-#include "MTA/MTA.h"
-#include "MTA/LockAnalysis.h"
-#include "MTA/MTAResultValidator.h"
-#include "Util/SVFUtil.h"
-#include "MemoryModel/PTAStat.h"
-#include "SVF-FE/BasicTypes.h"
+#include "svf/Util/Options.h"
+#include "svf/MTA/MHP.h"
+#include "svf/MTA/MTA.h"
+#include "svf/MTA/LockAnalysis.h"
+#include "svf/MTA/MTAResultValidator.h"
+#include "svf/Util/SVFUtil.h"
+#include "svf/MemoryModel/PTAStat.h"
+#include "svf/SVF-FE/BasicTypes.h"
 
 using namespace SVF;
 using namespace SVFUtil;

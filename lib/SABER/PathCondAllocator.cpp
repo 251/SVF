@@ -28,11 +28,11 @@
  *      Author: Yulei Sui
  */
 
-#include "Util/Options.h"
-#include "SVF-FE/LLVMUtil.h"
-#include "SABER/PathCondAllocator.h"
-#include "Util/DPItem.h"
-#include "Graphs/SVFG.h"
+#include "svf/Util/Options.h"
+#include "svf/SVF-FE/LLVMUtil.h"
+#include "svf/SABER/PathCondAllocator.h"
+#include "svf/Util/DPItem.h"
+#include "svf/Graphs/SVFG.h"
 #include <climits>
 
 using namespace SVF;

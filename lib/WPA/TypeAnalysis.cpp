@@ -27,14 +27,14 @@
  *      Author: Yulei Sui
  */
 
-#include "Util/Options.h"
-#include "SVF-FE/CPPUtil.h"
-#include "SVF-FE/ICFGBuilder.h"
-#include "Graphs/CHG.h"
-#include "WPA/TypeAnalysis.h"
-#include "MemoryModel/PTAStat.h"
-#include "Graphs/ICFGStat.h"
-#include "Graphs/VFG.h"
+#include "svf/Util/Options.h"
+#include "svf/SVF-FE/CPPUtil.h"
+#include "svf/SVF-FE/ICFGBuilder.h"
+#include "svf/Graphs/CHG.h"
+#include "svf/WPA/TypeAnalysis.h"
+#include "svf/MemoryModel/PTAStat.h"
+#include "svf/Graphs/ICFGStat.h"
+#include "svf/Graphs/VFG.h"
 
 using namespace SVF;
 using namespace SVFUtil;

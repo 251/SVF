@@ -7,8 +7,8 @@
  * Modified by Yulei Sui 2013
 */
 
-#include "Util/ExtAPI.h"
-#include "Util/SVFUtil.h"
+#include "svf/Util/ExtAPI.h"
+#include "svf/Util/SVFUtil.h"
 #include <string.h>
 #include <sys/stat.h>
 #include <stdlib.h>

@@ -32,7 +32,7 @@
  *
  */
 
-#include "MSSA/MemPartition.h"
+#include "svf/MSSA/MemPartition.h"
 
 using namespace SVF;
 

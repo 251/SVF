@@ -6,11 +6,11 @@
  */
 
 
-#include "MemoryModel/PointerAnalysisImpl.h"
-#include "SVF-FE/CPPUtil.h"
-#include "SVF-FE/DCHG.h"
-#include "Util/Options.h"
-#include "SVF-FE/IRAnnotator.h"
+#include "svf/MemoryModel/PointerAnalysisImpl.h"
+#include "svf/SVF-FE/CPPUtil.h"
+#include "svf/SVF-FE/DCHG.h"
+#include "svf/Util/Options.h"
+#include "svf/SVF-FE/IRAnnotator.h"
 #include <fstream>
 #include <sstream>
 

@@ -27,10 +27,10 @@
  *      Author: Pei Xu
  */
 
-#include "CFL/CFGNormalizer.h"
-#include "Util/SVFUtil.h"
-#include "Util/WorkList.h"
-#include "Util/BasicTypes.h"
+#include "svf/CFL/CFGNormalizer.h"
+#include "svf/Util/SVFUtil.h"
+#include "svf/Util/WorkList.h"
+#include "svf/Util/BasicTypes.h"
 #include <string>
 #include <regex>
 #include <fstream>

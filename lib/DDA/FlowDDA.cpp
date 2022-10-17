@@ -5,10 +5,10 @@
  *      Author: Yulei Sui, Sen Ye
  */
 
-#include "Util/Options.h"
-#include "DDA/FlowDDA.h"
-#include "DDA/DDAClient.h"
-#include "MemoryModel/PointsTo.h"
+#include "svf/Util/Options.h"
+#include "svf/DDA/FlowDDA.h"
+#include "svf/DDA/DDAClient.h"
+#include "svf/MemoryModel/PointsTo.h"
 
 using namespace std;
 using namespace SVF;

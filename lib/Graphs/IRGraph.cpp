@@ -27,8 +27,8 @@
  *      Author: Yulei Sui
  */
 
-#include "Graphs/IRGraph.h"
-#include "Util/Options.h"
+#include "svf/Graphs/IRGraph.h"
+#include "svf/Util/Options.h"
 
 using namespace SVF;
 using namespace SVFUtil;

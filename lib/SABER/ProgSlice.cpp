@@ -27,8 +27,8 @@
  *      Author: Yulei Sui
  */
 
-#include "SABER/ProgSlice.h"
-#include "SABER/SaberAnnotator.h"
+#include "svf/SABER/ProgSlice.h"
+#include "svf/SABER/SaberAnnotator.h"
 
 using namespace SVF;
 using namespace SVFUtil;

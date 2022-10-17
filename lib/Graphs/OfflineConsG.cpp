@@ -27,8 +27,8 @@
  *      Author: Yuxiang Lei
  */
 
-#include "Util/Options.h"
-#include "Graphs/OfflineConsG.h"
+#include "svf/Util/Options.h"
+#include "svf/Graphs/OfflineConsG.h"
 
 using namespace SVF;
 using namespace SVFUtil;

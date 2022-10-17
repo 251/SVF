@@ -27,8 +27,8 @@
  *      Author: Pei Xu
  */
 
-#include "CFL/CFLAlias.h"
-#include "Util/SVFBasicTypes.h"
+#include "svf/CFL/CFLAlias.h"
+#include "svf/Util/SVFBasicTypes.h"
 
 using namespace SVF;
 using namespace cppUtil;

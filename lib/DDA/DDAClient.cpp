@@ -8,13 +8,13 @@
  */
 
 
-#include "Util/Options.h"
-#include "Util/SVFUtil.h"
-#include "MemoryModel/PointsTo.h"
-#include "SVF-FE/CPPUtil.h"
+#include "svf/Util/Options.h"
+#include "svf/Util/SVFUtil.h"
+#include "svf/MemoryModel/PointsTo.h"
+#include "svf/SVF-FE/CPPUtil.h"
 
-#include "DDA/DDAClient.h"
-#include "DDA/FlowDDA.h"
+#include "svf/DDA/DDAClient.h"
+#include "svf/DDA/FlowDDA.h"
 #include <iostream>
 #include <iomanip>	// for std::setw
 

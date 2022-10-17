@@ -7,10 +7,10 @@
  *      Author: mbarbar
  */
 
-#include "Util/SVFUtil.h"
-#include "WPA/WPAStat.h"
-#include "WPA/VersionedFlowSensitive.h"
-#include "MemoryModel/PointsTo.h"
+#include "svf/Util/SVFUtil.h"
+#include "svf/WPA/WPAStat.h"
+#include "svf/WPA/VersionedFlowSensitive.h"
+#include "svf/MemoryModel/PointsTo.h"
 
 using namespace SVF;
 using namespace SVFUtil;

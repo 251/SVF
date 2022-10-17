@@ -5,15 +5,15 @@
  *      Author: Yulei Sui, Peng Di
  */
 
-#include "Util/Options.h"
-#include "MTA/MTAStat.h"
-#include "MTA/TCT.h"
-#include "MTA/MHP.h"
-#include "MTA/LockAnalysis.h"
-#include "MTA/FSMPTA.h"
-#include "MTA/MTAAnnotator.h"
-#include "Graphs/ThreadCallGraph.h"
-#include "SVF-FE/BasicTypes.h"
+#include "svf/Util/Options.h"
+#include "svf/MTA/MTAStat.h"
+#include "svf/MTA/TCT.h"
+#include "svf/MTA/MHP.h"
+#include "svf/MTA/LockAnalysis.h"
+#include "svf/MTA/FSMPTA.h"
+#include "svf/MTA/MTAAnnotator.h"
+#include "svf/Graphs/ThreadCallGraph.h"
+#include "svf/SVF-FE/BasicTypes.h"
 
 using namespace SVF;
 

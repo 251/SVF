@@ -30,8 +30,8 @@
 #ifndef THREADAPI_CPP_
 #define THREADAPI_CPP_
 
-#include "Util/ThreadAPI.h"
-#include "Util/SVFUtil.h"
+#include "svf/Util/ThreadAPI.h"
+#include "svf/Util/SVFUtil.h"
 
 #include <iostream>		/// std output
 #include <stdio.h>

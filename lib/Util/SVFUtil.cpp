@@ -27,11 +27,11 @@
  *      Author: Yulei Sui
  */
 
-#include "Util/Options.h"
-#include "Util/SVFUtil.h"
+#include "svf/Util/Options.h"
+#include "svf/Util/SVFUtil.h"
 
-#include "Util/BDDExpr.h"
-#include "MemoryModel/PointsTo.h"
+#include "svf/Util/BDDExpr.h"
+#include "svf/MemoryModel/PointsTo.h"
 
 #include <sys/resource.h>		/// increase stack size
 

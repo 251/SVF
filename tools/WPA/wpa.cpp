@@ -26,9 +26,9 @@
  // Author: Yulei Sui,
  */
 
-#include "SVF-FE/LLVMUtil.h"
-#include "WPA/WPAPass.h"
-#include "Util/Options.h"
+#include "svf/SVF-FE/LLVMUtil.h"
+#include "svf/WPA/WPAPass.h"
+#include "svf/Util/Options.h"
 
 using namespace llvm;
 using namespace std;

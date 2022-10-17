@@ -5,11 +5,11 @@
  *      Author: Yulei Sui
  */
 
-#include "DDA/DDAStat.h"
-#include "DDA/FlowDDA.h"
-#include "DDA/ContextDDA.h"
-#include "Graphs/SVFGStat.h"
-#include "MemoryModel/PointsTo.h"
+#include "svf/DDA/DDAStat.h"
+#include "svf/DDA/FlowDDA.h"
+#include "svf/DDA/ContextDDA.h"
+#include "svf/Graphs/SVFGStat.h"
+#include "svf/MemoryModel/PointsTo.h"
 
 #include <iomanip>
 

@@ -27,13 +27,13 @@
  *      Author: Jeffrey Ma
  */
 
-#include "Util/SVFModule.h"
-#include "Util/SVFUtil.h"
-#include "Graphs/SVFG.h"
-#include "Graphs/SVFGStat.h"
-#include "MemoryModel/PointerAnalysisImpl.h"
+#include "svf/Util/SVFModule.h"
+#include "svf/Util/SVFUtil.h"
+#include "svf/Graphs/SVFG.h"
+#include "svf/Graphs/SVFGStat.h"
+#include "svf/MemoryModel/PointerAnalysisImpl.h"
 #include <fstream>
-#include "Util/Options.h"
+#include "svf/Util/Options.h"
 
 using namespace SVF;
 using namespace SVFUtil;

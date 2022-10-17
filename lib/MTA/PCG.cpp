@@ -5,10 +5,10 @@
  *      Author: Yulei Sui, Peng Di
  */
 
-#include "Util/Options.h"
-#include "MTA/PCG.h"
-#include "Util/SVFUtil.h"
-#include "SVF-FE/BasicTypes.h"
+#include "svf/Util/Options.h"
+#include "svf/MTA/PCG.h"
+#include "svf/Util/SVFUtil.h"
+#include "svf/SVF-FE/BasicTypes.h"
 
 using namespace SVF;
 using namespace SVFUtil;

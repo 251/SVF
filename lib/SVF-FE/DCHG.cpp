@@ -9,10 +9,10 @@
 
 #include <sstream>
 
-#include "Util/Options.h"
-#include "SVF-FE/DCHG.h"
-#include "SVF-FE/CPPUtil.h"
-#include "Util/SVFUtil.h"
+#include "svf/Util/Options.h"
+#include "svf/SVF-FE/DCHG.h"
+#include "svf/SVF-FE/CPPUtil.h"
+#include "svf/Util/SVFUtil.h"
 
 #include "llvm/IR/DebugInfo.h"
 

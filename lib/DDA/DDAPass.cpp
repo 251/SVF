@@ -5,13 +5,13 @@
  */
 
 
-#include "Util/Options.h"
-#include "MemoryModel/PointerAnalysisImpl.h"
-#include "DDA/DDAPass.h"
-#include "DDA/FlowDDA.h"
-#include "DDA/ContextDDA.h"
-#include "DDA/DDAClient.h"
-#include "SVF-FE/SVFIRBuilder.h"
+#include "svf/Util/Options.h"
+#include "svf/MemoryModel/PointerAnalysisImpl.h"
+#include "svf/DDA/DDAPass.h"
+#include "svf/DDA/FlowDDA.h"
+#include "svf/DDA/ContextDDA.h"
+#include "svf/DDA/DDAClient.h"
+#include "svf/SVF-FE/SVFIRBuilder.h"
 
 #include <sstream>
 #include <limits.h>

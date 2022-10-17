@@ -27,13 +27,13 @@
  *      Author: Xiaokang Fan
  */
 
-#include "Util/Options.h"
+#include "svf/Util/Options.h"
 #include <queue>
-#include "Util/SVFModule.h"
-#include "Util/SVFUtil.h"
-#include "SVF-FE/BasicTypes.h"
-#include "SVF-FE/LLVMUtil.h"
-#include "SVF-FE/BreakConstantExpr.h"
+#include "svf/Util/SVFModule.h"
+#include "svf/Util/SVFUtil.h"
+#include "svf/SVF-FE/BasicTypes.h"
+#include "svf/SVF-FE/LLVMUtil.h"
+#include "svf/SVF-FE/BreakConstantExpr.h"
 
 using namespace std;
 using namespace SVF;

@@ -27,12 +27,12 @@
  *      Author: Yulei Sui
  */
 
-#include "Util/Options.h"
-#include "Graphs/CHG.h"
-#include "Util/SVFUtil.h"
-#include "MemoryModel/PointsTo.h"
-#include "WPA/Andersen.h"
-#include "WPA/Steensgaard.h"
+#include "svf/Util/Options.h"
+#include "svf/Graphs/CHG.h"
+#include "svf/Util/SVFUtil.h"
+#include "svf/MemoryModel/PointsTo.h"
+#include "svf/WPA/Andersen.h"
+#include "svf/WPA/Steensgaard.h"
 
 using namespace SVF;
 using namespace SVFUtil;

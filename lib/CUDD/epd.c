@@ -52,8 +52,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-#include "CUDD/util.h"
-#include "CUDD/epd.h"
+#include "svf/CUDD/util.h"
+#include "svf/CUDD/epd.h"
 
 
 /**Function********************************************************************

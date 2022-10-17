@@ -36,14 +36,14 @@
 #include <assert.h>
 #include <stack>
 
-#include "SVF-FE/CHGBuilder.h"
-#include "Util/Options.h"
-#include "SVF-FE/CPPUtil.h"
-#include "MemoryModel/SymbolTableInfo.h"
-#include "Util/SVFUtil.h"
-#include "SVF-FE/LLVMUtil.h"
-#include "Util/SVFModule.h"
-#include "MemoryModel/PTAStat.h"
+#include "svf/SVF-FE/CHGBuilder.h"
+#include "svf/Util/Options.h"
+#include "svf/SVF-FE/CPPUtil.h"
+#include "svf/MemoryModel/SymbolTableInfo.h"
+#include "svf/Util/SVFUtil.h"
+#include "svf/SVF-FE/LLVMUtil.h"
+#include "svf/Util/SVFModule.h"
+#include "svf/MemoryModel/PTAStat.h"
 
 using namespace SVF;
 using namespace SVFUtil;

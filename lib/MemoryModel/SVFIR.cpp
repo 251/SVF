@@ -27,10 +27,10 @@
  *      Author: Yulei Sui
  */
 
-#include "Util/Options.h"
-#include "MemoryModel/SVFIR.h"
-#include "SVF-FE/LLVMUtil.h"
-#include "SVF-FE/ICFGBuilder.h"
+#include "svf/Util/Options.h"
+#include "svf/MemoryModel/SVFIR.h"
+#include "svf/SVF-FE/LLVMUtil.h"
+#include "svf/SVF-FE/ICFGBuilder.h"
 
 using namespace SVF;
 using namespace SVFUtil;

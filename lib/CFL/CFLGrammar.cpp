@@ -27,8 +27,8 @@
  *      Author: Yulei Sui
  */
 
-#include "CFL/CFLGrammar.h"
-#include "Util/SVFUtil.h"
+#include "svf/CFL/CFLGrammar.h"
+#include "svf/Util/SVFUtil.h"
 #include <string>
 #include <iostream>
 #include <fstream>

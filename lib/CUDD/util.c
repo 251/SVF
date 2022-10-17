@@ -1,7 +1,7 @@
 /* LINTLIBRARY */
 
 #include <stdio.h>
-#include "CUDD/util.h"
+#include "svf/CUDD/util.h"
 
 #ifdef IBM_WATC		/* IBM Waterloo-C compiler (same as bsd 4.2) */
 #define void int

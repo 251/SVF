@@ -25,10 +25,10 @@
  *  Created on: April 29, 2022
  *      Author: Xiao
  */
-#include "Util/ExeState.h"
-#include "MemoryModel/SVFIR.h"
+#include "svf/Util/ExeState.h"
+#include "svf/MemoryModel/SVFIR.h"
 #include <iomanip>
-#include "Util/SVFUtil.h"
+#include "svf/Util/SVFUtil.h"
 
 using namespace SVF;
 using namespace SVFUtil;

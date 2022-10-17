@@ -12,9 +12,9 @@
 #include <limits.h>
 #include <llvm/Support/MathExtras.h>
 
-#include "Util/CoreBitVector.h"
-#include "Util/SVFBasicTypes.h"
-#include "Util/SVFUtil.h"
+#include "svf/Util/CoreBitVector.h"
+#include "svf/Util/SVFBasicTypes.h"
+#include "svf/Util/SVFUtil.h"
 
 namespace SVF
 {

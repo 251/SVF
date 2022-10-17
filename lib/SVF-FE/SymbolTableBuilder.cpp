@@ -29,15 +29,15 @@
 
 #include <memory>
 
-#include "SVF-FE/SymbolTableBuilder.h"
-#include "Util/NodeIDAllocator.h"
-#include "Util/Options.h"
-#include "Util/SVFModule.h"
-#include "Util/SVFUtil.h"
-#include "SVF-FE/BasicTypes.h"
-#include "SVF-FE/LLVMUtil.h"
-#include "SVF-FE/CPPUtil.h"
-#include "SVF-FE/GEPTypeBridgeIterator.h" // include bridge_gep_iterator
+#include "svf/SVF-FE/SymbolTableBuilder.h"
+#include "svf/Util/NodeIDAllocator.h"
+#include "svf/Util/Options.h"
+#include "svf/Util/SVFModule.h"
+#include "svf/Util/SVFUtil.h"
+#include "svf/SVF-FE/BasicTypes.h"
+#include "svf/SVF-FE/LLVMUtil.h"
+#include "svf/SVF-FE/CPPUtil.h"
+#include "svf/SVF-FE/GEPTypeBridgeIterator.h" // include bridge_gep_iterator
 
 using namespace SVF;
 using namespace SVFUtil;

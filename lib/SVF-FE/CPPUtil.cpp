@@ -27,10 +27,10 @@
  *      Author: Xiaokang Fan
  */
 
-#include "SVF-FE/CPPUtil.h"
-#include "Util/SVFUtil.h"
-#include "Util/SVFUtil.h"
-#include "SVF-FE/LLVMUtil.h"
+#include "svf/SVF-FE/CPPUtil.h"
+#include "svf/Util/SVFUtil.h"
+#include "svf/Util/SVFUtil.h"
+#include "svf/SVF-FE/LLVMUtil.h"
 
 
 #include <cxxabi.h>   // for demangling

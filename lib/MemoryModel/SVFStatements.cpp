@@ -27,9 +27,9 @@
  *      Author: Yulei Sui
  */
 
-#include "MemoryModel/SVFStatements.h"
-#include "MemoryModel/SVFIR.h"
-#include "Util/Options.h"
+#include "svf/MemoryModel/SVFStatements.h"
+#include "svf/MemoryModel/SVFIR.h"
+#include "svf/Util/Options.h"
 
 using namespace SVF;
 using namespace SVFUtil;

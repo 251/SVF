@@ -27,9 +27,9 @@
  *      Author: Xiaokang Fan
  */
 
-#include "Graphs/CHG.h"
-#include "Util/SVFUtil.h"
-#include "SVF-FE/CPPUtil.h"
+#include "svf/Graphs/CHG.h"
+#include "svf/Util/SVFUtil.h"
+#include "svf/SVF-FE/CPPUtil.h"
 
 using namespace SVF;
 using namespace SVFUtil;

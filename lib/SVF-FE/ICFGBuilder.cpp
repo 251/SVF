@@ -28,9 +28,9 @@
  *      Author: yulei
  */
 
-#include "SVF-FE/LLVMUtil.h"
-#include "SVF-FE/ICFGBuilder.h"
-#include "MemoryModel/SVFIR.h"
+#include "svf/SVF-FE/LLVMUtil.h"
+#include "svf/SVF-FE/ICFGBuilder.h"
+#include "svf/MemoryModel/SVFIR.h"
 
 using namespace SVF;
 using namespace SVFUtil;

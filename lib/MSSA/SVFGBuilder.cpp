@@ -26,13 +26,13 @@
  *  Created on: Apr 15, 2014
  *      Author: Yulei Sui
  */
-#include "Util/Options.h"
-#include "Util/SVFModule.h"
-#include "Util/SVFUtil.h"
-#include "MSSA/MemSSA.h"
-#include "Graphs/SVFG.h"
-#include "MSSA/SVFGBuilder.h"
-#include "WPA/Andersen.h"
+#include "svf/Util/Options.h"
+#include "svf/Util/SVFModule.h"
+#include "svf/Util/SVFUtil.h"
+#include "svf/MSSA/MemSSA.h"
+#include "svf/Graphs/SVFG.h"
+#include "svf/MSSA/SVFGBuilder.h"
+#include "svf/WPA/Andersen.h"
 
 using namespace SVF;
 using namespace SVFUtil;

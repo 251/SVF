@@ -5,7 +5,7 @@
  *      Author: Yulei Sui
  */
 
-#include "WPA/Steensgaard.h"
+#include "svf/WPA/Steensgaard.h"
 
 using namespace SVF;
 using namespace SVFUtil;

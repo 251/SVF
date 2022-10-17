@@ -21,9 +21,9 @@
 //===----------------------------------------------------------------------===//
 
 
-#include "Util/SVFModule.h"
-#include "SVF-FE/SymbolTableBuilder.h"
-#include "Util/SVFUtil.h"
+#include "svf/Util/SVFModule.h"
+#include "svf/SVF-FE/SymbolTableBuilder.h"
+#include "svf/Util/SVFUtil.h"
 
 using namespace SVF;
 

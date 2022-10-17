@@ -5,13 +5,13 @@
  *      Author: pengd
  */
 
-#include "Util/Options.h"
-#include "MTA/LockAnalysis.h"
-#include "MTA/MTA.h"
-#include "MTA/MTAResultValidator.h"
-#include "Util/SVFUtil.h"
-#include "MemoryModel/PTAStat.h"
-#include "MTA/LockResultValidator.h"
+#include "svf/Util/Options.h"
+#include "svf/MTA/LockAnalysis.h"
+#include "svf/MTA/MTA.h"
+#include "svf/MTA/MTAResultValidator.h"
+#include "svf/Util/SVFUtil.h"
+#include "svf/MemoryModel/PTAStat.h"
+#include "svf/MTA/LockResultValidator.h"
 
 
 using namespace SVF;

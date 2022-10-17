@@ -1,6 +1,6 @@
 #include "llvm/Support/JSON.h"
-#include "MemoryModel/SVFIR.h"
-#include "SVF-FE/Graph2Json.h"
+#include "svf/MemoryModel/SVFIR.h"
+#include "svf/SVF-FE/Graph2Json.h"
 
 #include <fstream>	// for ICFGBuilderFromFile
 #include <string>	// for ICFGBuilderFromFile

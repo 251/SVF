@@ -5,11 +5,11 @@
  *      Author: Yulei Sui, Peng Di
  */
 
-#include "Util/Options.h"
-#include "MTA/FSMPTA.h"
-#include "MTA/MHP.h"
-#include "MTA/PCG.h"
-#include "MemoryModel/PointsTo.h"
+#include "svf/Util/Options.h"
+#include "svf/MTA/FSMPTA.h"
+#include "svf/MTA/MHP.h"
+#include "svf/MTA/PCG.h"
+#include "svf/MemoryModel/PointsTo.h"
 
 using namespace SVF;
 using namespace SVFUtil;

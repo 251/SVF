@@ -26,11 +26,11 @@
  // Author: Yulei Sui,
  */
 
-#include "SVF-FE/LLVMUtil.h"
-#include "SABER/LeakChecker.h"
-#include "SABER/FileChecker.h"
-#include "SABER/DoubleFreeChecker.h"
-#include "Util/Options.h"
+#include "svf/SVF-FE/LLVMUtil.h"
+#include "svf/SABER/LeakChecker.h"
+#include "svf/SABER/FileChecker.h"
+#include "svf/SABER/DoubleFreeChecker.h"
+#include "svf/Util/Options.h"
 
 using namespace llvm;
 using namespace SVF;

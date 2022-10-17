@@ -28,11 +28,11 @@
  */
 
 #include <iomanip>
-#include "Graphs/PTACallGraph.h"
-#include "MemoryModel/PTAStat.h"
-#include "MemoryModel/PointerAnalysisImpl.h"
-#include "MemoryModel/SVFIR.h"
-#include "Util/Options.h"
+#include "svf/Graphs/PTACallGraph.h"
+#include "svf/MemoryModel/PTAStat.h"
+#include "svf/MemoryModel/PointerAnalysisImpl.h"
+#include "svf/MemoryModel/SVFIR.h"
+#include "svf/Util/Options.h"
 
 using namespace SVF;
 

@@ -27,11 +27,11 @@
  *      Author: Yulei Sui
  */
 
-#include "Util/Options.h"
-#include "SVF-FE/LLVMUtil.h"
-#include "MSSA/MemPartition.h"
-#include "MSSA/MemSSA.h"
-#include "Graphs/SVFGStat.h"
+#include "svf/Util/Options.h"
+#include "svf/SVF-FE/LLVMUtil.h"
+#include "svf/MSSA/MemPartition.h"
+#include "svf/MSSA/MemSSA.h"
+#include "svf/Graphs/SVFGStat.h"
 
 using namespace SVF;
 using namespace SVFUtil;

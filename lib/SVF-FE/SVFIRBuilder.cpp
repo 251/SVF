@@ -27,16 +27,16 @@
  *      Author: Yulei Sui
  */
 
-#include "SVF-FE/SVFIRBuilder.h"
-#include "Util/SVFModule.h"
-#include "Util/SVFUtil.h"
-#include "SVF-FE/BasicTypes.h"
-#include "SVF-FE/LLVMUtil.h"
-#include "SVF-FE/CPPUtil.h"
-#include "Util/BasicTypes.h"
-#include "MemoryModel/PAGBuilderFromFile.h"
-#include "SVF-FE/LLVMLoopAnalysis.h"
-#include "Util/Options.h"
+#include "svf/SVF-FE/SVFIRBuilder.h"
+#include "svf/Util/SVFModule.h"
+#include "svf/Util/SVFUtil.h"
+#include "svf/SVF-FE/BasicTypes.h"
+#include "svf/SVF-FE/LLVMUtil.h"
+#include "svf/SVF-FE/CPPUtil.h"
+#include "svf/Util/BasicTypes.h"
+#include "svf/MemoryModel/PAGBuilderFromFile.h"
+#include "svf/SVF-FE/LLVMLoopAnalysis.h"
+#include "svf/Util/Options.h"
 
 using namespace std;
 using namespace SVF;

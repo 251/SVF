@@ -27,11 +27,11 @@
  *      Author: Yulei Sui
  */
 
-#include "Util/Options.h"
-#include "Util/SVFModule.h"
-#include "MSSA/MemRegion.h"
-#include "MSSA/MSSAMuChi.h"
-#include "SVF-FE/LLVMUtil.h"
+#include "svf/Util/Options.h"
+#include "svf/Util/SVFModule.h"
+#include "svf/MSSA/MemRegion.h"
+#include "svf/MSSA/MSSAMuChi.h"
+#include "svf/SVF-FE/LLVMUtil.h"
 
 using namespace SVF;
 using namespace SVFUtil;

@@ -27,8 +27,8 @@
  *      Author: Yulei Sui
  */
 
-#include "SVF-FE/LLVMUtil.h"
-#include "MemoryModel/SymbolTableInfo.h"
+#include "svf/SVF-FE/LLVMUtil.h"
+#include "svf/MemoryModel/SymbolTableInfo.h"
 
 using namespace SVF;
 

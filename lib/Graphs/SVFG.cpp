@@ -27,16 +27,16 @@
  *      Author: Yulei Sui
  */
 
-#include "Util/SVFModule.h"
-#include "Util/SVFUtil.h"
-#include "Graphs/SVFG.h"
-#include "Graphs/SVFGOPT.h"
-#include "Graphs/SVFGStat.h"
-#include "Graphs/ICFG.h"
-#include "Util/Options.h"
-#include "MemoryModel/PointerAnalysisImpl.h"
+#include "svf/Util/SVFModule.h"
+#include "svf/Util/SVFUtil.h"
+#include "svf/Graphs/SVFG.h"
+#include "svf/Graphs/SVFGOPT.h"
+#include "svf/Graphs/SVFGStat.h"
+#include "svf/Graphs/ICFG.h"
+#include "svf/Util/Options.h"
+#include "svf/MemoryModel/PointerAnalysisImpl.h"
 #include <fstream>
-#include "Util/Options.h"
+#include "svf/Util/Options.h"
 
 using namespace SVF;
 using namespace SVFUtil;

@@ -60,8 +60,8 @@
 
 ******************************************************************************/
 
-#include "CUDD/util.h"
-#include "CUDD/cuddInt.h"
+#include "svf/CUDD/util.h"
+#include "svf/CUDD/cuddInt.h"
 
 /*---------------------------------------------------------------------------*/
 /* Constant declarations                                                     */

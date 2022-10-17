@@ -27,10 +27,10 @@
  *      Author: Yulei Sui
  */
 
-#include "SVF-FE/LLVMUtil.h"
-#include "MemoryModel/PointerAnalysis.h"
-#include "WPA/WPAStat.h"
-#include "WPA/Andersen.h"
+#include "svf/SVF-FE/LLVMUtil.h"
+#include "svf/MemoryModel/PointerAnalysis.h"
+#include "svf/WPA/WPAStat.h"
+#include "svf/WPA/Andersen.h"
 
 using namespace SVF;
 using namespace SVFUtil;

@@ -27,10 +27,10 @@
  *      Author: rockysui
  */
 
-#include "SABER/SaberSVFGBuilder.h"
-#include "SABER/SaberCheckerAPI.h"
-#include "MemoryModel/PointerAnalysisImpl.h"
-#include "Graphs/SVFG.h"
+#include "svf/SABER/SaberSVFGBuilder.h"
+#include "svf/SABER/SaberCheckerAPI.h"
+#include "svf/MemoryModel/PointerAnalysisImpl.h"
+#include "svf/Graphs/SVFG.h"
 
 using namespace SVF;
 using namespace SVFUtil;

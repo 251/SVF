@@ -28,8 +28,8 @@
  *      Author: Yulei Sui
  */
 
-#include "SVF-FE/DataFlowUtil.h"
-#include "SVF-FE/LLVMModule.h"
+#include "svf/SVF-FE/DataFlowUtil.h"
+#include "svf/SVF-FE/LLVMModule.h"
 
 using namespace SVF;
 using namespace llvm;

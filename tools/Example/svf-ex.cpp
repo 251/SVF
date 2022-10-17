@@ -26,11 +26,11 @@
  // Author: Yulei Sui,
  */
 
-#include "SVF-FE/LLVMUtil.h"
-#include "Graphs/SVFG.h"
-#include "WPA/Andersen.h"
-#include "SVF-FE/SVFIRBuilder.h"
-#include "Util/Options.h"
+#include "svf/SVF-FE/LLVMUtil.h"
+#include "svf/Graphs/SVFG.h"
+#include "svf/WPA/Andersen.h"
+#include "svf/SVF-FE/SVFIRBuilder.h"
+#include "svf/Util/Options.h"
 
 using namespace llvm;
 using namespace std;

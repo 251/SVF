@@ -4,14 +4,14 @@
 #include <iostream>
 #include <queue>
 
-#include "FastCluster/fastcluster.h"
-#include "MemoryModel/PointerAnalysisImpl.h"
-#include "MemoryModel/PTAStat.h"
-#include "Util/NodeIDAllocator.h"
-#include "Util/BasicTypes.h"
-#include "Util/SVFBasicTypes.h"
-#include "Util/SVFUtil.h"
-#include "Util/Options.h"
+#include "svf/FastCluster/fastcluster.h"
+#include "svf/MemoryModel/PointerAnalysisImpl.h"
+#include "svf/MemoryModel/PTAStat.h"
+#include "svf/Util/NodeIDAllocator.h"
+#include "svf/Util/BasicTypes.h"
+#include "svf/Util/SVFBasicTypes.h"
+#include "svf/Util/SVFUtil.h"
+#include "svf/Util/Options.h"
 
 namespace SVF
 {

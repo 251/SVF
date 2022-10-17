@@ -5,12 +5,12 @@
  *      Author: Yulei Sui, Peng Di
  */
 
-#include "Util/Options.h"
-#include "MTA/TCT.h"
-#include "MTA/MTA.h"
-#include "SVF-FE/DataFlowUtil.h"
-#include "SVF-FE/BasicTypes.h"
-#include "SVF-FE/LLVMUtil.h"
+#include "svf/Util/Options.h"
+#include "svf/MTA/TCT.h"
+#include "svf/MTA/MTA.h"
+#include "svf/SVF-FE/DataFlowUtil.h"
+#include "svf/SVF-FE/BasicTypes.h"
+#include "svf/SVF-FE/LLVMUtil.h"
 
 #include <string>
 
