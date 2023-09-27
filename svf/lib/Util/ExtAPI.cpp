@@ -29,6 +29,7 @@
 
 #include "Util/ExtAPI.h"
 #include "Util/SVFUtil.h"
+#include <cstdlib>
 #include <sys/stat.h>
 
 using namespace SVF;
@@ -112,15 +113,16 @@ std::string ExtAPI::getExtBcPath()
     if (!stat(bcFilePath.c_str(), &statbuf))
         return bcFilePath;
 
-    bcFilePath = getFilePath("echo $SVF_DIR");
-    if (!stat(bcFilePath.c_str(), &statbuf))
-        return bcFilePath;
+    const char *env = getenv("SVF_EXTAPI");
+    SVFUtil::errs() << "SVF_EXTAPI: " << (env ? env : "NULL") << '\n';
+    if (env && !stat(env, &statbuf))
+        return env;
 
     bcFilePath = getFilePath("npm root");
     if (!stat(bcFilePath.c_str(), &statbuf))
         return bcFilePath;
 
-    SVFUtil::errs() << "No extpai.bc found at " << bcFilePath << " for getExtAPI(); set $SVF_DIR first!\n";
+    SVFUtil::errs() << "No extapi.bc found at " << bcFilePath << " for getExtAPI(); set $SVF_DIR first!\n";
     abort();
 }
 

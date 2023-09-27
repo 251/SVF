@@ -32,6 +32,7 @@
 
 #include "Util/SparseBitVector.h"
 
+#include <cstdint>
 #include <deque>
 #include <iostream>
 #include <list>
